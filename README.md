@@ -13,7 +13,6 @@ Open source tools are strongly preferred. Proprietary or restrictively licensed 
 - [Ruby](#ruby)
 - [Go](#go)
 - [Java](#java)
-- [Talks/Articles](#talksarticles-1)
 - [Cloud Services](#cloud-services)
 - [Big Data (Hadoop Stack)](#big-data-hadoop-stack)
 - [ETL Tools (GUI)](#etl-tools-gui)
@@ -65,9 +64,6 @@ Open source tools are strongly preferred. Proprietary or restrictively licensed 
 * [Toolz](https://toolz.readthedocs.org/en/latest/) - "A functional standard library for Python."
 * [xmltodict](https://github.com/martinblech/xmltodict) - "Python module that makes working with XML feel like you are working with JSON"
 
-### Talks/Articles
-* http://www.parsely.com/misc/slides/streamparse/notes/
-
 ## Ruby
 * [Embulk](https://github.com/embulk/embulk) - "a parallel bulk data loader that helps data transfer between various storages, databases, NoSQL and cloud services."
 * [Kiba](https://github.com/thbar/kiba) - "Data processing & ETL framework for Ruby"
@@ -78,16 +74,6 @@ Open source tools are strongly preferred. Proprietary or restrictively licensed 
 * [CloudQuery](https://github.com/cloudquery/cloudquery) - An open source high performance ELT Framework.
 * [Pachyderm](https://github.com/pachyderm/pachyderm) - A system for running processing pipeline jobs in containers and version controlling all data using a commit-based distributed filesystem.
 * [Redpanda Connect](https://www.redpanda.com/connect) - "a declarative data streaming and integration tool with 300+ pre-built connectors, configured via YAML."
-
-## Talks/Articles
-* https://medium.com/@samson_hu/building-analytics-at-500px-92e9a7005c83
-* http://www.slideshare.net/g33ktalk/data-pipeline-acial-lyceum20140624
-* http://chairnerd.seatgeek.com/building-out-the-seatgeek-data-pipeline/
-* http://www.garynissen.com/etl-hand-code-or-tool/
-* http://www.slideshare.net/CasertaConcepts/big-data-warehousing-meetup-bigetl-trad-tool-vs-pig-vs-hive-vs-python-what-to-use-when-slide-set-2
-* https://deepfriedcode.com/books/darps/index.html
-* http://blog.cloudera.com/wp-content/uploads/2010/01/IntroToPig.pdf
-* http://tech.adroll.com/blog/data/2015/10/15/luigi.html?adrolldev
 
 ## Cloud Services
 * [Airbyte](https://airbyte.com/) - "Airbyte is an open-source data integration engine that helps you consolidate your data in your data warehouses, lakes and databases"
