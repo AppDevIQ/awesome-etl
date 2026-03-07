@@ -92,6 +92,7 @@ A curated list of notable ETL (extract, transform, load) frameworks, libraries a
 * http://tech.adroll.com/blog/data/2015/10/15/luigi.html?adrolldev
 
 ## Cloud Services
+* [Airbyte](https://airbyte.com/) - "Airbyte is an open-source data integration engine that helps you consolidate your data in your data warehouses, lakes and databases"
 * [Alteryx](http://www.alteryx.com/) - Cloud ETL tool with an interface similar to GUI ETL tools.
 * [Amazon Simple Workflow Service (SWF)](https://aws.amazon.com/swf/) - "helps developers build, run, and scale background jobs that have parallel or sequential steps. You can think of Amazon SWF as a fully-managed state tracker and task coordinator in the Cloud."
 * [AWS Batch](https://aws.amazon.com/batch/) - Allows executing jobs as containerized applications running on Amazon ECS. Also includes features for dynamically bidding for Spot Instances, integration with existing workflow engines, scheduling, monitoring, dependency modeling, and dynamic scaling/provisioning based on amount of work.
@@ -112,7 +113,6 @@ A curated list of notable ETL (extract, transform, load) frameworks, libraries a
 
 ## ETL Tools (GUI)
 *Warning*: If you're already familiar with a scripting language, GUI ETL tools are not a good replacement for a well structured application written with a scripting language. These tools lack flexibility and are a good example of the ["inner-platform effect"](https://en.wikipedia.org/wiki/Inner-platform_effect). With a large project, you will most likely run into instances where "the tool doesn't do that" and end up implementing something hacky with a script run by the GUI ETL tool. Also, the GUI can conceal complexity and the files these tools generate are impossible to code review. However, the GUI and out-of-the-box functionality can make some tasks simpler, especially for people not comfortable with writing code.
-* [Airbyte](https://airbyte.com/) - "Airbyte is an open-source data integration engine that helps you consolidate your data in your data warehouses, lakes and databases"
 * [Apache NiFi](https://nifi.apache.org/) - "a rich, web-based interface for designing, controlling, and monitoring a dataflow."
 * [CDAP](https://cdap.io/) - "Use Cask Data Application Platform to visually build and manage data applications in hybrid and multi-cloud environments."
 * [Informatica PowerCenter](https://www.informatica.com/products/data-integration/powercenter.html) - "a toolset for establishing and maintaining enterprise-wide data warehouses. It has a customer base of over 5,000 companies."
