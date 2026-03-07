@@ -16,6 +16,7 @@ Open source tools are strongly preferred. Proprietary or restrictively licensed 
 - [Cloud Services](#cloud-services)
 - [Big Data (Hadoop Stack)](#big-data-hadoop-stack)
 - [ETL Tools (GUI)](#etl-tools-gui)
+- [Further Reading](#further-reading)
 
 ## Related Lists
 * [awesome-pipeline](https://github.com/pditommaso/awesome-pipeline)
@@ -104,6 +105,11 @@ Open source tools are strongly preferred. Proprietary or restrictively licensed 
 * [Microsoft SSIS](https://learn.microsoft.com/en-us/sql/integration-services/sql-server-integration-services) - "a component of the Microsoft SQL Server database software that can be used to perform a broad range of data migration tasks."
 * [N8n](https://github.com/n8n-io/n8n) - "Free and open fair-code licensed node based Workflow Automation Tool. Easily automate tasks across different services."
 * [Pentaho Data Integration (PDI)](https://www.hitachivantara.com/en-us/products/pentaho-platform/data-integration-analytics.html) - "a graphical ETL tool for designing data integration workflows using a drag-and-drop interface, also known as Kettle."
+
+## Further Reading
+* [Fundamentals of Data Engineering](https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/) - Joe Reis & Matt Housley's tool-agnostic overview of the data engineering lifecycle, including the ETL-to-ELT shift (2022).
+* [The Rise of Data Contracts](https://dataproducts.substack.com/p/the-rise-of-data-contracts) - Chad Sanderson on formalizing schema and quality guarantees between data producers and consumers.
+* [ELT 101: The Why and What of ELT](https://meltano.com/blog/elt-101-the-why-and-what-of-elt-or-the-why-not-of-etl/) - Why cheap cloud warehouse compute flipped the ETL paradigm to ELT.
 
 ## Contributing
 
