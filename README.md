@@ -1,6 +1,10 @@
 # awesome-etl
 A curated list of notable ETL (extract, transform, load) frameworks, libraries and software.
 
+The premise of this list: you don't need fancy, specialized ETL frameworks. Well-structured code using mainstream, well-supported libraries gets you surprisingly far and is easier to test, review, and version control than tools that make those things difficult. Tools here are selected for real-world adoption and staying power, not novelty.
+
+Open source tools are strongly preferred. Proprietary or restrictively licensed tools are only included when they're mainstream enough to be genuinely hard to ignore. See [CONTRIBUTING.md](CONTRIBUTING.md) for full inclusion criteria.
+
 - [Awesome ETL](#awesome-etl)
     - [Workflow Management/Engines](#workflow-managementengines)
     - [Job Scheduling](#job-scheduling)
