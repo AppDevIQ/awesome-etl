@@ -45,6 +45,7 @@ A curated list of notable ETL (extract, transform, load) frameworks, libraries a
 * [dataset](https://dataset.readthedocs.org/en/latest/) - A wrapper around SQLAlchemy that simplifies database operations (including upserting).
 * [dbt-core](https://github.com/dbt-labs/dbt-core) - "enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications." The de facto standard for SQL-layer transformation in the modern data stack.
 * [dlt](https://dlthub.com/docs) - "an open source Python library that makes data loading easy." Lightweight, schema-inference ELT pipelines with built-in normalization and incremental loading.
+* [DuckDB](https://duckdb.org) - "an analytical in-process SQL database management system."
 * [Great Expectations](https://docs.greatexpectations.io/) - "Always know what to expect from your data." De facto standard for data quality validation; embedded in most serious ETL pipelines.
 * [hamilton](https://github.com/DAGWorks-Inc/hamilton) - Hamilton helps data scientists and engineers define testable, modular, self-documenting dataflows, that encode lineage and metadata. Runs and scales everywhere python does.
 * [ijson](https://github.com/ICRAR/ijson) - Allows processing JSON iteratively (as a stream) without loading the whole file into memory at once.
@@ -60,6 +61,7 @@ A curated list of notable ETL (extract, transform, load) frameworks, libraries a
 * [Requests-HTML](https://github.com/kennethreitz/requests-html) - Combines PyQuery, Requests, parse, and other libraries for a pleasant and intuitive web scraping experience.
 * [Retrying](https://github.com/rholder/retrying) - Allows you to add a decorator to any function/method to retry on an exception.
 * [Ruffus](https://pypi.python.org/pypi/ruffus) - "The Ruffus module is a lightweight way to add support for running computational pipelines."
+* [Scrapy](https://scrapy.org) - "a fast high-level web crawling & scraping framework for Python."
 * [SQLAlchemy](http://www.sqlalchemy.org/) - "the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL."
 * [Toolz](https://toolz.readthedocs.org/en/latest/) - "A functional standard library for python." Includes a `pipe` function that allows you to pipe a value through a sequence of functions. There's also a cython implementation here: https://github.com/pytoolz/cytoolz
 * [xmltodict](https://github.com/martinblech/xmltodict) - Makes working with XML as easy as working with JSON. Also allows streaming so you don't run out of memory on large XML files. Great for simple operations on small XML files.
@@ -107,6 +109,7 @@ A curated list of notable ETL (extract, transform, load) frameworks, libraries a
 ## Big Data (Hadoop Stack)
 * [Apache Beam](https://beam.apache.org/) - "a unified programming model for Batch and Streaming data processing." Write pipelines once and run them on any execution engine (Spark, Flink, Google Dataflow, etc).
 * [Apache Flink](https://flink.apache.org/) - "a framework and distributed processing engine for stateful computations over unbounded and bounded data streams." Industry-standard for high-throughput, low-latency stream processing.
+* [Debezium](https://debezium.io) - "Change data capture for a variety of databases."
 * [Kafka Connect](https://kafka.apache.org/documentation/#connect) - A framework for streaming data between Apache Kafka and other systems at scale using pre-built source and sink connectors. Part of the Apache Kafka ecosystem.
 * [Pig](https://pig.apache.org/) - "a platform for analyzing large data sets that consists of a high-level language for expressing data analysis programs, coupled with infrastructure for evaluating these programs."
 * [Spark](https://spark.apache.org/) - "a fast and general-purpose cluster computing system. It provides high-level APIs in Scala, Java, and Python that make parallel jobs easy to write, and an optimized engine that supports general computation graphs. It also supports a rich set of higher-level tools including Shark (Hive on Spark), MLlib for machine learning, GraphX for graph processing, and Spark Streaming."
