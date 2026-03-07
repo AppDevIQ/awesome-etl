@@ -1,21 +1,22 @@
-# awesome-etl
+# Awesome ETL
 A curated list of notable ETL (extract, transform, load) frameworks, libraries and software.
 
 The premise of this list: you don't need fancy, specialized ETL frameworks. Well-structured code using mainstream, well-supported libraries gets you surprisingly far and is easier to test, review, and version control than tools that make those things difficult. Tools here are selected for real-world adoption and staying power, not novelty.
 
 Open source tools are strongly preferred. Proprietary or restrictively licensed tools are only included when they're mainstream enough to be genuinely hard to ignore. See [CONTRIBUTING.md](CONTRIBUTING.md) for full inclusion criteria.
 
-- [Awesome ETL](#awesome-etl)
-    - [Workflow Management/Engines](#workflow-managementengines)
-    - [Job Scheduling](#job-scheduling)
-    - [Python](#python)
-    - [Ruby](#ruby)
-    - [Go](#go)
-    - [Java](#java)
-    - [Talks/Articles](#talksarticles-1)
-    - [Cloud Services](#cloud-services)
-    - [Big Data (Hadoop Stack)](#big-data-hadoop-stack)
-    - [ETL Tools (GUI)](#etl-tools-gui)
+## Contents
+
+- [Workflow Management/Engines](#workflow-managementengines)
+- [Job Scheduling](#job-scheduling)
+- [Python](#python)
+- [Ruby](#ruby)
+- [Go](#go)
+- [Java](#java)
+- [Talks/Articles](#talksarticles-1)
+- [Cloud Services](#cloud-services)
+- [Big Data (Hadoop Stack)](#big-data-hadoop-stack)
+- [ETL Tools (GUI)](#etl-tools-gui)
 
 ## Related Lists
 * [awesome-pipeline](https://github.com/pditommaso/awesome-pipeline)
@@ -126,3 +127,7 @@ Open source tools are strongly preferred. Proprietary or restrictively licensed 
 * [Microsoft SSIS](https://learn.microsoft.com/en-us/sql/integration-services/sql-server-integration-services) - "a component of the Microsoft SQL Server database software that can be used to perform a broad range of data migration tasks."
 * [N8n](https://github.com/n8n-io/n8n) - "Free and open fair-code licensed node based Workflow Automation Tool. Easily automate tasks across different services."
 * [Pentaho Data Integration (PDI)](https://www.hitachivantara.com/en-us/products/pentaho-platform/data-integration-analytics.html) - "a graphical ETL tool for designing data integration workflows using a drag-and-drop interface, also known as Kettle."
+
+## Contributing
+
+Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
