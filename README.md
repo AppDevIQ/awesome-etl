@@ -7,20 +7,16 @@ Open source tools are strongly preferred. Proprietary or restrictively licensed 
 
 ## Contents
 
-- [Related Lists](#related-lists)
 - [Workflow Management/Engines](#workflow-managementengines)
 - [Job Scheduling](#job-scheduling)
+- [Java](#java)
 - [Python](#python)
 - [Ruby](#ruby)
 - [Go](#go)
-- [Java](#java)
 - [Cloud Services](#cloud-services)
 - [Big Data (Hadoop Stack)](#big-data-hadoop-stack)
 - [ETL Tools (GUI)](#etl-tools-gui)
 - [Further Reading](#further-reading)
-
-## Related Lists
-- [awesome-pipeline](https://github.com/pditommaso/awesome-pipeline)
 
 ## Workflow Management/Engines
 - [Airflow](https://github.com/apache/airflow) - "Use airflow to author workflows as directed acyclic graphs (DAGs) of tasks. The airflow scheduler executes your tasks on an array of workers while following the specified dependencies. Rich command line utilities make performing complex surgeries on DAGs a snap. The rich user interface makes it easy to visualize pipelines running in production, monitor progress, and troubleshoot issues when needed."
@@ -112,3 +108,6 @@ Open source tools are strongly preferred. Proprietary or restrictively licensed 
 ## Contributing
 
 Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
+
+## Related Lists
+- [awesome-pipeline](https://github.com/pditommaso/awesome-pipeline) - A curated list of awesome pipeline toolkits.
