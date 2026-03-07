@@ -34,8 +34,7 @@ Open source tools are strongly preferred. Proprietary or restrictively licensed 
 * [Jenkins](https://github.com/jenkinsci/jenkins) - "the leading open-source automation server. Built with Java, it provides over 1000 plugins to support automating virtually anything, so that humans can actually spend their time doing things machines cannot."
 
 ## Java
-* [GETL](https://github.com/ascrus/getl) - Groovy toolbox for ETL Tasks from practicing architectures
-* [JSR 352](https://www.jcp.org/en/jsr/detail?id=352) - Java native API for batch processing
+* [Apache Camel](https://github.com/apache/camel) - "an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data."
 * [Spring Batch](https://spring.io/projects/spring-batch) - ETL on Spring ecosystem
 
 ## Python
@@ -79,7 +78,6 @@ Open source tools are strongly preferred. Proprietary or restrictively licensed 
 ## Cloud Services
 * [Airbyte](https://airbyte.com/) - "Airbyte is an open-source data integration engine that helps you consolidate your data in your data warehouses, lakes and databases"
 * [Alteryx](http://www.alteryx.com/) - "combines data preparation, data blending, and analytics — predictive, statistical, and spatial — in a visual workflow designer."
-* [Amazon Simple Workflow Service (SWF)](https://aws.amazon.com/swf/) - "helps developers build, run, and scale background jobs that have parallel or sequential steps. You can think of Amazon SWF as a fully-managed state tracker and task coordinator in the Cloud."
 * [AWS Batch](https://aws.amazon.com/batch/) - "enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS."
 * [AWS Glue](https://aws.amazon.com/glue/) - "a serverless data integration service that makes it easy for analytics users to discover, prepare, move, and integrate data from multiple sources."
 * [Cloud Data Fusion](https://cloud.google.com/data-fusion) - "Fully managed, cloud-native data integration platform."
@@ -94,7 +92,6 @@ Open source tools are strongly preferred. Proprietary or restrictively licensed 
 * [Apache Flink](https://flink.apache.org/) - "a framework and distributed processing engine for stateful computations over unbounded and bounded data streams."
 * [Debezium](https://debezium.io) - "Change data capture for a variety of databases."
 * [Kafka Connect](https://kafka.apache.org/documentation/#connect) - "a tool for scalably and reliably streaming data between Apache Kafka and other systems. It makes it simple to quickly define connectors that move large collections of data into and out of Kafka."
-* [Pig](https://pig.apache.org/) - "a platform for analyzing large data sets that consists of a high-level language for expressing data analysis programs, coupled with infrastructure for evaluating these programs."
 * [Spark](https://spark.apache.org/) - "a fast and general-purpose cluster computing system. It provides high-level APIs in Scala, Java, and Python that make parallel jobs easy to write, and an optimized engine that supports general computation graphs. It also supports a rich set of higher-level tools including Shark (Hive on Spark), MLlib for machine learning, GraphX for graph processing, and Spark Streaming."
 
 ## ETL Tools (GUI)
