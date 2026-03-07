@@ -26,6 +26,7 @@ A curated list of notable ETL (extract, transform, load) frameworks, libraries a
 * [Toil](https://toil.readthedocs.io/en/latest/) - Similar to Luigi, jobs are classes with a run method. Supports executing jobs on other machines (workers) which can include AWS spot instances.
 * [Argo](https://argoproj.github.io/) - Container based workflow management system for Kubernetes. Workflows are specified as a directed acyclic graph (DAG), and each step is executed on a container, and the latter is run on a Kubernetes Pod. There is also support for Airflow DAGs.
 * [Dagster](https://dagster.io) - "Dagster is a data orchestrator for machine learning, analytics, and ETL. It lets you define pipelines in terms of the data flow between reusable, logical components, then test locally and run anywhere. With a unified view of pipelines and the assets they produce, Dagster can schedule and orchestrate Pandas, Spark, SQL, or anything else that Python can invoke."
+* [Temporal](https://temporal.io) - "a durable execution platform for building and running resilient workflows. A popular modern alternative to Airflow for orchestrating complex, long-running pipelines."
 
 ## Job Scheduling
 * [Jenkins](https://github.com/jenkinsci/jenkins) - "the leading open-source automation server. Built with Java, it provides over 1000 plugins to support automating virtually anything, so that humans can actually spend their time doing things machines cannot."
@@ -42,7 +43,11 @@ A curated list of notable ETL (extract, transform, load) frameworks, libraries a
 * [Bonobo](https://www.bonobo-project.org/) - Simple, modern and atomic data transformation graphs for Python 3.5+.
 * [Celery](https://docs.celeryq.dev/) - "an asynchronous task queue/job queue based on distributed message passing. It is focused on real-time operation, but supports scheduling as well."
 * [Dask](https://github.com/dask/dask) - Ever tried using Pandas to process data that won't fit into memory? Dask makes it easy. Dask also has functionality to make it easy to processing continuous streams of data.
-* [dataset](https://dataset.readthedocs.org/en/latest/) - A wrapper around SQLAlchemy that simplifies database operations (including upserting).
+* [dataset](https://dataset.readthedocs.org/en/latest/)
+* [dbt-core](https://github.com/dbt-labs/dbt-core) - "enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications." The de facto standard for SQL-layer transformation in the modern data stack.
+* [dlt](https://dlthub.com/docs) - "an open source Python library that makes data loading easy." Lightweight, schema-inference ELT pipelines with built-in normalization and incremental loading.
+* [Great Expectations](https://docs.greatexpectations.io/) - "Always know what to expect from your data." De facto standard for data quality validation; embedded in most serious ETL pipelines.
+* [Meltano](https://meltano.com/) - "the declarative code-first data integration engine." Open-source ELT platform built on the Singer tap/target standard; self-hosted alternative to Fivetran. - A wrapper around SQLAlchemy that simplifies database operations (including upserting).
 * [hamilton](https://github.com/DAGWorks-Inc/hamilton) - Hamilton helps data scientists and engineers define testable, modular, self-documenting dataflows, that encode lineage and metadata. Runs and scales everywhere python does.
 * [ijson](https://github.com/ICRAR/ijson) - Allows processing JSON iteratively (as a stream) without loading the whole file into memory at once.
 * [Joblib](https://joblib.readthedocs.io/) - "a set of tools to provide lightweight pipelining in Python."
@@ -95,9 +100,13 @@ A curated list of notable ETL (extract, transform, load) frameworks, libraries a
 * [Cloud Data Fusion](https://cloud.google.com/data-fusion) - "Fully managed, cloud-native data integration platform."
 * [Microsoft Azure Data Factory](https://azure.microsoft.com/en-us/services/data-factory/) - "A fully managed, serverless data integration service that helps you visually integrate data sources with more than 90 built-in, maintenance-free connectors."
 * [Stitch](https://www.stitchdata.com/) - "Stitch is a cloud-first, open source platform for rapidly moving data. A simple, powerful ETL service, Stitch connects to all your data sources – from databases like MySQL and MongoDB, to SaaS applications like Salesforce and Zendesk – and replicates that data to a destination of your choosing."
+* [Fivetran](https://www.fivetran.com/) - Fully managed ELT service that automatically moves data from 500+ sources into your data warehouse. The most widely adopted managed connector service in the modern data stack.
 * [Hevo](https://hevodata.com/) - Hevo is a Fully Automated, No-code Data Pipeline Platform that supports 150+ ready-to-use integrations across Databases, SaaS Applications, Cloud Storage, SDKs, and Streaming Services.
 
 ## Big Data (Hadoop Stack)
+* [Apache Beam](https://beam.apache.org/) - "a unified programming model for Batch and Streaming data processing." Write pipelines once and run them on any execution engine (Spark, Flink, Google Dataflow, etc).
+* [Apache Flink](https://flink.apache.org/) - "a framework and distributed processing engine for stateful computations over unbounded and bounded data streams." Industry-standard for high-throughput, low-latency stream processing.
+* [Kafka Connect](https://kafka.apache.org/documentation/#connect) - A framework for streaming data between Apache Kafka and other systems at scale using pre-built source and sink connectors. Part of the Apache Kafka ecosystem.
 * [Pig](https://pig.apache.org/) - "a platform for analyzing large data sets that consists of a high-level language for expressing data analysis programs, coupled with infrastructure for evaluating these programs."
 * [Spark](https://spark.apache.org/) - "a fast and general-purpose cluster computing system. It provides high-level APIs in Scala, Java, and Python that make parallel jobs easy to write, and an optimized engine that supports general computation graphs. It also supports a rich set of higher-level tools including Shark (Hive on Spark), MLlib for machine learning, GraphX for graph processing, and Spark Streaming."
 
