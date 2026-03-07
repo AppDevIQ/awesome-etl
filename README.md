@@ -44,7 +44,6 @@ Open source tools are strongly preferred. Proprietary or restrictively licensed 
 ## Python
 ### Libraries
 * [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/) - "a Python library for pulling data out of HTML and XML files."
-* [Bonobo](https://www.bonobo-project.org/) - "Extract Transform Load for Python 3.5+"
 * [Celery](https://docs.celeryq.dev/) - "an asynchronous task queue/job queue based on distributed message passing. It is focused on real-time operation, but supports scheduling as well."
 * [Dask](https://github.com/dask/dask) - "Parallel computing with task scheduling"
 * [dataset](https://dataset.readthedocs.org/en/latest/) - A wrapper around SQLAlchemy that simplifies database operations (including upserting).
@@ -63,11 +62,9 @@ Open source tools are strongly preferred. Proprietary or restrictively licensed 
 * [PETL](https://github.com/petl-developers/petl) - "a general purpose Python package for extracting, transforming and loading tables of data."
 * [polars](https://github.com/pola-rs/polars) - "Extremely fast Query Engine for DataFrames, written in Rust"
 * [PyQuery](https://pyquery.readthedocs.io/) - "A jquery-like library for python"
-* [Requests-HTML](https://github.com/kennethreitz/requests-html) - "Pythonic HTML Parsing for Humans™"
-* [Retrying](https://github.com/rholder/retrying) - "a general-purpose retrying library, written in Python, to simplify the task of adding retry behavior to just about anything."
-* [Ruffus](https://pypi.python.org/pypi/ruffus) - "The Ruffus module is a lightweight way to add support for running computational pipelines."
 * [Scrapy](https://scrapy.org) - "a fast high-level web crawling & scraping framework for Python."
 * [SQLAlchemy](http://www.sqlalchemy.org/) - "the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL."
+* [tenacity](https://github.com/jd/tenacity) - "a general-purpose retrying library, written in Python, to simplify the task of adding retry behavior to just about anything."
 * [Toolz](https://toolz.readthedocs.org/en/latest/) - "A functional standard library for Python."
 * [xmltodict](https://github.com/martinblech/xmltodict) - "Python module that makes working with XML feel like you are working with JSON"
 
