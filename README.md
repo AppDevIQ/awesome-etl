@@ -79,9 +79,6 @@ Open source tools are strongly preferred. Proprietary or restrictively licensed 
 * [Pachyderm](https://github.com/pachyderm/pachyderm) - A system for running processing pipeline jobs in containers and version controlling all data using a commit-based distributed filesystem.
 * [Redpanda Connect](https://www.redpanda.com/connect) - "a declarative data streaming and integration tool with 300+ pre-built connectors, configured via YAML."
 
-## Javascript
-* [NoFlo](http://noflojs.org/) - "a JavaScript implementation of Flow-Based Programming"
-
 ## Talks/Articles
 * https://medium.com/@samson_hu/building-analytics-at-500px-92e9a7005c83
 * http://www.slideshare.net/g33ktalk/data-pipeline-acial-lyceum20140624
